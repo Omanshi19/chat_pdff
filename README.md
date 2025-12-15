@@ -1,49 +1,49 @@
-# ChatPDF
+# ChatPDF 📝🤖
 
-Chat with any PDF. 
+ChatPDF is a PDF summarizer and chat assistant that lets you upload any PDF and instantly get concise summaries or ask follow‑up questions in natural language.  
+It is designed to be simple to run locally while providing an experience similar to “chatting” with your documents.
 
-Easily upload the PDF documents you'd like to chat with. Instant answers. Ask questions, extract information, and summarize documents with AI. Sources included.
+---
 
-### Tutorial -> https://www.youtube.com/watch?v=3aRc1ijrTVs
+## Features
 
-Create app like [ChatPDF](https://www.thesamur.ai/chatpdf-alternative) or [PDF.ai](https://pdf.ai/) in less than 10 lines of code
+- 📄 Upload single or multiple PDF files.
+- 🧠 Automatic text extraction and intelligent summarization.
+- 💬 Chat interface to ask questions about the PDF.
+- 🔍 Chunking and context retrieval for long documents.
+- ⚙️ Configurable model, chunk size, and prompt settings.
+- 🖥️ Clean UI built for focus and readability.
 
-### Getting Started
+---
 
-Code is up now, ⭐ (Star) the repo to receive updates
+## Tech Stack
 
-Replit and streamlit version coming soon
+Update this section to reflect your actual implementation.
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) on twitter for updates
+- **Frontend**: (e.g. React / Next.js / Streamlit)
+- **Backend**: (e.g. Node.js / Express or Python / FastAPI / Flask)
+- **AI / NLP**: (e.g. OpenAI API, local LLM, LangChain, etc.)
+- **PDF Processing**: (e.g. `PyPDF2`, `pdf-parse`, `pdfjs-dist`)
+- **Vector Store (optional)**: (e.g. Chroma, Pinecone, FAISS)
 
-Subscribe to https://www.youtube.com/@AnilChandraNaiduMatcha for more such video tutorials
+---
 
-### How to run ? (Things might change based on OS)
+## Project Structure
 
-1. Create a virtual environment in python https://docs.python.org/3/library/venv.html
+Example structure (adjust to match your project):
 
-2. Run "pip install -r requirements.txt"
-
-3. Set OPENAI_API_KEY environment variable with your openai key
-
-4. Run "python main.py"
-
-5. Change pdf file and query in code if you want to try with any other content
-
-To run streamlit app, follow the steps run "streamlit run streamlitui.py"
-
-Parts of the streamlit code is inspired from [here](https://github.com/viniciusarruda/chatpdf)
-
-### Demo link
-
-https://heybot.thesamur.ai/
-
-### Also check
-
-[Chat with Website code](https://github.com/Anil-matcha/Website-to-Chatbot)
-
-[Chat with CSV code](https://github.com/Anil-matcha/Chat-With-Excel)
-
-[Chat with Youtube code](https://github.com/Anil-matcha/Chat-Youtube)
-
-[ChatGPT in Discord code](https://github.com/Anil-matcha/DiscordGPT)
+```bash
+ChatPDF/
+├─ backend/
+│  ├─ app.py              # or main server file
+│  ├─ services/           # PDF parsing, embeddings, summarization
+│  ├─ models/             # LLM / embedding wrappers
+│  └─ requirements.txt    # Python dependencies (if using Python)
+├─ frontend/
+│  ├─ src/
+│  │  ├─ components/      # UI components
+│  │  ├─ pages/           # Routes / screens
+│  │  └─ services/        # API calls
+│  └─ package.json        # Frontend dependencies
+├─ .env.example           # Example environment variables
+├─ README.md
