@@ -3,7 +3,7 @@
 ChatPDF is a PDF summarizer and chat assistant that lets you upload any PDF and instantly get concise summaries or ask follow‑up questions in natural language.   
 It is designed to be simple to run locally while providing an experience similar to “chatting” with your documents. 
 
----
+--- 
 
 ## Features
 
