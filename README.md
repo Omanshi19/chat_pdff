@@ -12,7 +12,7 @@ It is designed to be simple to run locally while providing an experience similar
 - 💬 Chat interface to ask questions about the PDF.
 - 🔍 Chunking and context retrieval for long documents. 
 - ⚙️ Configurable model, chunk size, and prompt settings.
-- 🖥️ Clean UI built for focus and readability.
+- 🖥️ Clean UI built for focus and readability. 
 
 ---
 
